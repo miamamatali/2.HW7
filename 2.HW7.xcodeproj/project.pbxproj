@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE31D92A298D1B6000591326 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D929298D1B6000591326 /* main.swift */; };
+		CE31D931298D1CA800591326 /* Client .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D930298D1CA800591326 /* Client .swift */; };
+		CE31D933298D1D1100591326 /* Card .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D932298D1D1100591326 /* Card .swift */; };
+		CE31D935298D1E7300591326 /* Bank .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31D934298D1E7300591326 /* Bank .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CE31D926298D1B6000591326 /* 2.HW7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2.HW7; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31D929298D1B6000591326 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE31D930298D1CA800591326 /* Client .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client .swift"; sourceTree = "<group>"; };
+		CE31D932298D1D1100591326 /* Card .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card .swift"; sourceTree = "<group>"; };
+		CE31D934298D1E7300591326 /* Bank .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bank .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CE31D929298D1B6000591326 /* main.swift */,
+				CE31D930298D1CA800591326 /* Client .swift */,
+				CE31D932298D1D1100591326 /* Card .swift */,
+				CE31D934298D1E7300591326 /* Bank .swift */,
 			);
 			path = 2.HW7;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE31D92A298D1B6000591326 /* main.swift in Sources */,
+				CE31D931298D1CA800591326 /* Client .swift in Sources */,
+				CE31D935298D1E7300591326 /* Bank .swift in Sources */,
+				CE31D933298D1D1100591326 /* Card .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
