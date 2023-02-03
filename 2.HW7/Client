@@ -1,0 +1,11 @@
+class Client {
+    var firstname: String
+    var lastname: String
+    var cards: [Card]
+    
+    init(firstname: String, lastname: String, cards: [Card]) {
+        self.firstname = firstname
+        self.lastname = lastname
+        self.cards = cards
+    }
+}
