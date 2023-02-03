@@ -1,0 +1,11 @@
+class Card {
+    var bankname: String
+    var cardnumber: String
+    var bill: Int
+    
+    init(bankname: String, cardnumber: String, bill: Int) {
+        self.bankname = bankname
+        self.cardnumber = cardnumber
+        self.bill = bill
+    }
+}
